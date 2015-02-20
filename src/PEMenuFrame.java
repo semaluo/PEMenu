@@ -19,12 +19,22 @@ public class PEMenuFrame {
     private JLabel welcome;
     private JMenuBar mb = new JMenuBar();
 
+    /**
+     * Add a parent Menu to the menubar
+     * @param menuName name of Menu
+     */
     public void addParentMenu(String menuName){
         JMenu menuItem = new JMenu(menuName);
         mb.add(menuItem);
         mainMenu.show();
 
     }
+
+    /**
+     * add a menu item to parent Menu
+     * @param itemName the name of the item to add
+     * @param parentMenu the parent Menu to add item to
+     */
     public void addSubMenu(String itemName, String parentMenu){
         JMenuItem subMenuItem = new JMenuItem(itemName);
         for(int i = 0; i<mb.getMenuCount(); i++){
@@ -61,10 +71,10 @@ public class PEMenuFrame {
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Test");
                 try {
-                    Process proc = Runtime.getRuntime().exec(filePath);
+                    Process proc = Runtime.getRuntime().exec(System.getProperty("user.dir") + "\\" +  filePath);
                 }
                 catch(IOException ex){
-                    JOptionPane.showMessageDialog(mainMenu,e.paramString() + " Could not load executable.");
+                    JOptionPane.showMessageDialog(mainMenu,e.getActionCommand() + " Could not load executable.");
                 }
             }
         });

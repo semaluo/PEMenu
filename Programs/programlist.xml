@@ -2,11 +2,15 @@
     <programGroup id="Storage Tools">
         <program id="Test1">
             <name>TestProgram</name>
-            <path>cmd /c start C:\Users\Wojo\Desktop\test.bat</path>
+            <path>C:\\Windows\\explorer.exe</path>
         </program>
         <program id="Test2">
             <name>TestProgram2</name>
             <path>cmd /c start C:\Users\Wojo\Desktop\test.bat</path>
+        </program>
+        <program id="Victoria">
+            <name>Victoria</name>
+            <path>Programs\StorageTools\Victoria\victoria43.exe</path>
         </program>
     </programGroup>
     <programGroup id="RecoveryTools">

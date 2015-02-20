@@ -19,6 +19,11 @@ import org.w3c.dom.Element;
  * @version 1.0 Created on 2/18/2015 at 11:51 PM
  */
 public class PEMenu {
+    //change xmlPath based on compilation for production or development
+    //production: "programlist.xml"
+    //development: "src\\programlist.xml"
+    private static final String xmlPath = "Programs\\programlist.xml";
+    
     public static PEMenuFrame readXML(){
         PEMenuFrame menu = new PEMenuFrame();
         String parentMenu;
@@ -26,7 +31,7 @@ public class PEMenu {
         String filePath;
 
         try {
-            File test = new File("C:\\Users\\Wojo\\IdeaProjects\\PEMenu\\src\\programlist.xml");
+            File test = new File(xmlPath);
 
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = dbFactory.newDocumentBuilder();
