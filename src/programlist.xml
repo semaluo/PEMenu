@@ -1,0 +1,18 @@
+<programList>
+    <programGroup id="Storage Tools">
+        <program id="Test1">
+            <name>TestProgram</name>
+            <path>cmd /c start C:\Users\Wojo\Desktop\test.bat</path>
+        </program>
+        <program id="Test2">
+            <name>TestProgram2</name>
+            <path>cmd /c start C:\Users\Wojo\Desktop\test.bat</path>
+        </program>
+    </programGroup>
+    <programGroup id="RecoveryTools">
+        <program id="Test2-2">
+            <name>Test3</name>
+            <path>C:\\Windows\\explorer.exe</path>
+        </program>
+    </programGroup>
+</programList>
