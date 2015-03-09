@@ -19,4 +19,32 @@
             <path>C:\\Windows\\explorer.exe</path>
         </program>
     </programGroup>
+    <programGroup id="File Explorers">
+        <program id="Explorer++">
+            <name>Explorer++</name>
+            <path>Programs\FileExplorers\Explorer++.exe</path>
+        </program>
+    </programGroup>
+    <programGroup id="Paswords + Keys">
+        <program id="ProduKey">
+            <name>ProduKey</name>
+            <path>Programs\PasswordsKeys\ProduKey\ProduKey.exe</path>
+        </program>
+        <program id="NTPWEdit">
+            <name>NTPWEdit</name>
+            <path>Programs\PasswordsKeys\NTPWEdit\ntpwedit.exe</path>
+        </program>
+        <program id="Mail PassView">
+            <name>Mail PassView</name>
+            <path>Programs\PasswordsKeys\MailPV\mailpv.exe</path>
+        </program>
+        <program id="Bullets PassView">
+            <name>Passwords behind dots</name>
+            <path>Programs\PasswordsKeys\BltPV\BulletsPassView.exe</path>
+        </program>
+        <program id="Browser PassView">
+            <name>Browser PassView</name>
+            <path>Programs\PasswordsKeys\WebPV\WebBrowserPassView.exe</path>
+        </program>
+    </programGroup>
 </programList>

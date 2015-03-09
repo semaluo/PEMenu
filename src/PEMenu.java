@@ -65,7 +65,7 @@ public class PEMenu {
         return menu;
     }
     public static void main(String[] args) {
-       PEMenuFrame mainMenuFrame = readXML();
+        PEMenuFrame mainMenuFrame = readXML();
 
     }
 }

@@ -101,10 +101,11 @@ public class PEMenuFrame {
         return item;
     }
     public PEMenuFrame(){
-        welcome = new JLabel("Welcome to a basic JFrame example!!",0);
+        welcome = new JLabel("PEMenu for Windows PE",0);
         mainMenu.add(welcome);
+        mainMenu.setTitle("PEMenu");
         mainMenu.setJMenuBar(mb);
-        mainMenu.setSize(800, 600);
+        mainMenu.setSize(800, 400);
         mainMenu.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 System.exit(0);
